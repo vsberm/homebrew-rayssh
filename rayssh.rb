@@ -4,8 +4,8 @@
 class Rayssh < Formula
   desc "rayssh transfer"
   homepage "https://www.raysync.cn/"
-  url "https://raw.githubusercontent.com/vsberm/rayssh-release/master/macOS/rayssh-0.0.1.tar.gz"
-  sha256 "62a295ea7e88286ecbfe13b1eb30ba7db298e87c3716f64346bb8f417aee21b7"
+  url "https://raw.githubusercontent.com/vsberm/rayssh-release/master/macOS/rayssh-0.0.2.tar.gz"
+  sha256 "9382e81093a8e400a673db35f16933329648070af4faa464e435101e14158033"
   # depends_on "cmake" => :build
 
   def install
@@ -15,7 +15,7 @@ class Rayssh < Formula
     bin.install "./bin/rayscp"
     bin.install "./bin/rayssh"
     bin.install "./bin/rayssh-keygen"
-    bin.install "./bin/rsync"
+    bin.install "./bin/raysync"
   end
 
   test do

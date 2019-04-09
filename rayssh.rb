@@ -4,9 +4,9 @@
 class Rayssh < Formula
   desc "rayssh transfer"
   homepage "https://www.raysync.cn/"
-  url "https://raw.githubusercontent.com/vsberm/rayssh-release/master/macOS/rayssh-0.0.3.tar.gz"
-  sha256 "80db365270d61d2c48924400442ecb18259ae288c761fba360d48d7fef179ad4"
-  version "0.0.3"
+  url "https://raw.githubusercontent.com/vsberm/rayssh-release/master/macOS/rayssh-0.0.4.tar.gz"
+  sha256 "4a9e5d08f447e88ae4dfd805132107dc59a212296e9a6049ee9d5eca93bd187d"
+  version "0.0.4"
   # depends_on "cmake" => :build
 
   def install
